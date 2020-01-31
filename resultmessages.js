@@ -5,12 +5,12 @@
 
 //goes to "the end" page & 'play again' button 
 const deathConditions = {
-    doa: 'You died before your time, better luck next time, coward',
-    doaImage: 'insert image', 
-    deadQ2: 'You survived the trial of might, but the battle of wits was beyond you. Study up in the afterlife!',
-    dq2Image: 'insert image',
-    deadQ3: 'You had the wits and the might, but Magik was beyond you. Befriend a wizard in the afterlife.'
-    dq3Image: 'insert image'
+    deadGoblins: 'You died before your time, better luck next time, coward',
+    deadGobImage: 'https://www.heksecast.com/wp-content/uploads/2019/04/Davy_and_the_Goblin_031.jpg',
+    deadWizard: 'Befriend a wizard in the afterlife, but live as a cute cat the rest of this life, you earned it. At least goblins like you now.',
+    deadWizImage: 'ihttps://ddydc3qiky-flywheel.netdna-ssl.com/wp-content/uploads/2019/08/funny-medieval-cats-licking-paintings-50-5d42b7a4dab98__700-1.jpg',
+    deadDemon: 'You have become two things that at least some humans might enjoy: a good pillar and some quality salt',
+    deadDemImage: 'https://lh3.googleusercontent.com/proxy/IbV6pp4wcbVCK0dWKeq0DfKeROj1PKL2qYV5FjnZYjdX-kuCAmesV9caTLNPVn5pGEobNyMxgvPwaorsUTDMT6Il5s6Fwb7BmzI',
 };
 
 //results if player made it though all the quests 
