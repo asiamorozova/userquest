@@ -14,12 +14,14 @@ const deathConditions = {
 };
 
 //results if player made it though all the quests 
-};
 // if player selects both magic options for his quest  one outcome; if he selects might results, different outcome; if player selections are mixed - else result 
-const endResults: = {
-    totalMagic: '',
-    totalMight: '',
-    elseResult: ''
+
+
+const endResults = {
+    totalMagic: 'You accomplished all you quests and became the follower of magic. You also decided to get a hut and a bunch of warty familiars and move in by a swamp. Who knew?',
+    totalMight: 'You ended up living by the sword, how does it feel to be the toughest bully there is?',
+    elseResult: 'You played with both magic and sword- jack of all trades,master of none, you have a long journey ahead before retirement. '
+
 
 };
 
