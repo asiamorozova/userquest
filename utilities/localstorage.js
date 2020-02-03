@@ -1,4 +1,4 @@
-//functoin for putting user into local storage 
+//function for putting user into local storage 
 
 export function saveUser(user) {
     const json = JSON.stringify(user);

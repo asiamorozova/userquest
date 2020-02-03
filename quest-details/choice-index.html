@@ -1,0 +1,42 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="quest-details.css">
+</head>
+<body>
+    <header>
+        
+        <h1>Adventure Quest</h1>
+        <div class="profile">
+            
+            <span id="name"></span>
+            hp:<span id="magic"></span>
+            gold: <span id="might"></span>
+        </div>
+    </header>
+    
+    <main> 
+        <h2 id="title"></h2>
+        <p>
+            <img id="image">
+        </p>
+        <p id="description"></p>
+        <form id="choice-form">
+            <p id="choices"></p>
+            <button>Choose</button>
+        </form>
+        <section id="result" class="hidden">
+            <p id="result-description"></p>
+            <a href="../selectquest/questlinks.html">Back to Quests</a>
+        </section>
+    </main>
+
+  
+
+    <script type="module" src="quest-details.js/"></script>
+</body>
+</html>

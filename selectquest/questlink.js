@@ -1,4 +1,5 @@
 
+
 function createQuestLink(quest) {
     const link = document.createElement('a');
     link.classList.add('quest');
